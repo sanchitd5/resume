@@ -11,9 +11,9 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Sanchit Dang - Senior Full Stack Developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'Experienced Full Stack Engineer with expertise in developing user-friendly and innovative web and mobile applications using various programming languages. Proficient in application performance tuning, usability, and automation.',
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {

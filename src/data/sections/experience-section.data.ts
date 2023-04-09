@@ -1,18 +1,24 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
-  chakraUi,
   eslint,
   firebase,
-  nextJs,
-  nx,
   pnpm,
   react,
-  reactQuery,
-  tailwindCss,
   typescript,
-  vue,
+  aws,
+  ibmCloud,
+  jest,
+  mongoDb,
+  postgreSql,
+  prettier,
+  redux,
+  flutter,
+  dart,
+  electron,
+  nodeJs,
+  expressJs,
+
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,60 +30,95 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Senior Full Stack Engineer',
+      company: 'OneView Commerce | Australia Post',
+      image: import('@/assets/logos/australia-post-logo.jpeg'),
+      dates: [new Date('2021-11'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+      - Design & implement software design specifications.
+      - Perform requirements and code analysis, identification of code metrics, system risk analysis and
+      software reliability analysis.
+      - Application performance tuning, improvement, balancing, usability, and automation.
+      - Create, maintain, and run unit tests for both new and existing code with the target of delivering defect free code.
+      - Translate mock-ups and wireframes into functioning front-end code.
+      - Conduct design and code reviews and collaborate to ensure your own code passes review.
+      - Work with Product Owners/Scrum Masters to analyse and deliver requirements.
+      - Collaborate on technical architecture and design.
+      - Design and develop applications with an eye towards simplicity and reliability.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [react(), redux(), nodeJs(), electron(), typescript(), aws(), firebase(), jest(), pnpm(), prettier(), eslint(), ibmCloud(), mongoDb(), postgreSql()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Full Stack Engineer',
+      company: 'Deakin University',
+      image: import('@/assets/logos/deakin-logo.png'),
+      dates: [new Date('2019-05'), new Date('2021-11')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+      - Create user-friendly web and cross-platform applications using the following languages: JavaScript,
+      React JS, Flutter, React Native, Node JS.
+      - Lead a multidisciplinary team with backend and web developers to integrate a smooth functioning
+      system.
+      - Manage project repositories, doing code reviews and helping peer developers.
+      - Deploy of the applications on Web servers, Google Play Store and Apple App Store.
+      - Tactically use Agile and SCRUM methodologies to deliver high-quality projects on a timely basis
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [react(), flutter(), dart(), nodeJs(), expressJs(), typescript(), aws(), firebase(), jest(), pnpm(), prettier(), eslint(), ibmCloud()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [],
     },
+
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
+      role: 'Mobile Application Develope',
+      company: 'Faktum Bauprodukte GmbH (Contract Role)',
+      image: import('@/assets/logos/faktum-logo.webp'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
+      - Created cross-platform ordering application for the tiling trade deployed on Google Play Store and
+      Apple App Store.
+      - Maintained overall user experience and design of the project.
+      - Development of the Dashboard using ReactJS deployed on Amazon AWS EC2.
+      - Development of the backend using the HAPI framework on Node JS deployed on Amazon AWS EC2.
+      - Development of the mobile application using Flutter and Dart.
 
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
+      <br>
 
-        Donec non vulputate augue 🤓
+      The application is an innovative ordering tool for the tiling trade. As a Faktum customer, the user can
+      easily order the products the user requires from a comprehensive product catalog tailored to user's
+      specific needs. Users can compile project-related shopping baskets directly from the construction site
+      and at the same time choose delivery options and many other services. A copy of your order will also be
+      sent by e-mail to the address that user-specified for optimum organization.
+      
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [react(), flutter(), dart(), nodeJs(), typescript(), aws(), prettier(), eslint(), mongoDb(), expressJs()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [],
     },
+    {
+      role: 'Intern | Jn. Software Engineer',
+      company: 'Deakin University',
+      image: import('@/assets/logos/deakin-logo.png'),
+      dates: [new Date('2018-10'), new Date('2019-05')],
+      description: `
+      • Maintaining the overall User Experience and Interface around all the applications being developed
+      • Worked on the frontend for the applications in the company
+      • Creating and maintaining Wireframes and Prototypes for providing better requirement clarity to fellow
+      developers
+      • Run Design Thinking sessions to achieve solutions.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), nodeJs(), eslint(), mongoDb(), expressJs()],
+      },
+      links: [],
+    }
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
 
