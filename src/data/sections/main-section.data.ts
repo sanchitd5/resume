@@ -13,15 +13,14 @@ const mainSectionData = {
   fullName: 'Sanchit Dang',
   role: 'Senior Full Stack Engineer',
   details: [
-
     { label: 'Email', value: 'sanchitd5@live.com', url: 'mailto:sanchitd5@live.com' },
     { label: 'From', value: 'Geelong, Australia' },
   ],
   pdfDetails: [
     { label: 'Email', value: 'sanchitd5@live.com', url: 'mailto:sanchitd5@live.com' },
-    { label: 'LinkedIn', value: '/in/sanchitd5', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/sanchitd5', url: 'https://github.com' },
-    { label: 'Website', value: 'sanchitdang.com', url: '/', fullRow: true },
+    { label: 'LinkedIn', value: 'sanchitd5', url: 'https://linkedin.com/in/sanchitd5' },
+    { label: 'GitHub', value: 'sanchitd5', url: 'https://github.com/sanchitd5' },
+    { label: 'Website', value: 'sanchitdang.com', url: 'http://www.sanchitdang.com', fullRow: true },
   ],
   description:
     'Full Stack Engineer with expertise in developing user-friendly and innovative web and mobile applications using various programming languages. Proficient in application performance tuning, usability, and automation.',
