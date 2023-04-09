@@ -24,9 +24,9 @@ const mainSectionData = {
     { label: 'Website', value: 'sanchitdang.com', url: '/', fullRow: true },
   ],
   description:
-    'Experienced Full Stack Engineer with expertise in developing user-friendly and innovative web and mobile applications using various programming languages. Proficient in application performance tuning, usability, and automation.',
+    'Full Stack Engineer with expertise in developing user-friendly and innovative web and mobile applications using various programming languages. Proficient in application performance tuning, usability, and automation.',
   tags: [{
-    name: 'AWS Certified Solution Architect Associate', icon: 'fa6-brands:aws'
+    name: 'Solution Architect (Associate)', icon: 'fa6-brands:aws'
   }, {
     name: 'Full Stack Engineer', icon: 'fa6-solid:code'
   },],

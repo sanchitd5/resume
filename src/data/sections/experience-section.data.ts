@@ -35,22 +35,33 @@ const experienceSectionData = {
       image: import('@/assets/logos/australia-post-logo.jpeg'),
       dates: [new Date('2021-11'), null],
       description: `
-      - Design & implement software design specifications.
-      - Perform requirements and code analysis, identification of code metrics, system risk analysis and
-      software reliability analysis.
-      - Application performance tuning, improvement, balancing, usability, and automation.
-      - Create, maintain, and run unit tests for both new and existing code with the target of delivering defect free code.
-      - Translate mock-ups and wireframes into functioning front-end code.
-      - Conduct design and code reviews and collaborate to ensure your own code passes review.
-      - Work with Product Owners/Scrum Masters to analyse and deliver requirements.
-      - Collaborate on technical architecture and design.
-      - Design and develop applications with an eye towards simplicity and reliability.
+      - Collaborate on the development of a user-friendly and uniform point-of-sale system called Post+, intended for the Australia Post Office network.
+      - Develop and implement software design specifications
+      - Conduct requirements and code analysis, risk assessment, and software reliability analysis
+      - Optimize application performance, balancing, usability, and automation
+      - Develop and maintain unit tests for new and existing code to ensure defect-free code delivery
+      - Transform mock-ups and wireframes into functional front-end code
+      - Participate in design and code reviews and ensure your code meets requirements
+      - Collaborate with Product Owners and Scrum Masters to deliver requirements
+      - Work together on technical architecture and design
+      - Create simple and reliable applications.
       `,
       tagsList: {
         title: 'Technologies',
         tags: [react(), redux(), nodeJs(), electron(), typescript(), aws(), firebase(), jest(), pnpm(), prettier(), eslint(), ibmCloud(), mongoDb(), postgreSql()],
       },
-      links: [],
+      links: [
+        {
+          url: 'https://www.oneviewcommerce.com/',
+          icon: 'fa6-solid:globe',
+          name: 'Onview Commerce'
+        },
+        {
+          url: 'https://www.transparency.gov.au/annual-reports/australian-postal-corporation/reporting-year/2019-20-43',
+          icon: 'fa6-solid:globe',
+          name: 'POST+ Program'
+        }
+      ],
     },
     {
       role: 'Full Stack Engineer',
@@ -74,10 +85,10 @@ const experienceSectionData = {
     },
 
     {
-      role: 'Mobile Application Develope',
+      role: 'Mobile Application Developer',
       company: 'Faktum Bauprodukte GmbH (Contract Role)',
       image: import('@/assets/logos/faktum-logo.webp'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      dates: [new Date('2020-06'), new Date('2020-09')],
       description: `
       - Created cross-platform ordering application for the tiling trade deployed on Google Play Store and
       Apple App Store.
@@ -97,7 +108,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), flutter(), dart(), nodeJs(), typescript(), aws(), prettier(), eslint(), mongoDb(), expressJs()],
+        tags: [react(), flutter(), dart(), nodeJs(), aws(), mongoDb(), expressJs(), jest()],
       },
       links: [],
     },
