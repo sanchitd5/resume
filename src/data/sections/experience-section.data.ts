@@ -35,16 +35,17 @@ const experienceSectionData = {
       image: import('@/assets/logos/australia-post-logo.jpeg'),
       dates: [new Date('2021-11'), null],
       description: `
-      - Collaborate on the development of a user-friendly and uniform point-of-sale system called Post+, intended for the Australia Post Office network.
-      - Develop and implement software design specifications
-      - Conduct requirements and code analysis, risk assessment, and software reliability analysis
-      - Optimize application performance, balancing, usability, and automation
-      - Develop and maintain unit tests for new and existing code to ensure defect-free code delivery
-      - Transform mock-ups and wireframes into functional front-end code
-      - Participate in design and code reviews and ensure your code meets requirements
-      - Collaborate with Product Owners and Scrum Masters to deliver requirements
-      - Work together on technical architecture and design
-      - Create simple and reliable applications.
+      - Improve OVC's proprietary calculation logic, achieving an 800% improvement in basket calculation times, significantly enhancing performance and efficiency.
+      - Lead the Australia Development Team at OneView Commerce, focusing on headless application solutions for Australia Post's Post+ POS, ensuring optimal integration and performance.
+      - Engineer OneView Commerce’s POS Software Development Kit and UI, utilized by clients such as Molten Brown, ForeverNew, and Kroger to deliver tailored retail solutions.
+      - Develop business logic for Australia Post's Post+ POS software, leveraging ReduxJS, AWS Serverless, and Google Cloud Functions to enhance functionality and integration.
+      - Implement an event-based logging solution using AWS SQS and SNS, streamlining data handling and improving system responsiveness.
+      - Translate mock-ups and wireframes into functional front-end code with ReactJS, ReduxJS, and AngularJS, ensuring high fidelity to design specifications.
+      - Contribute to technical architecture and designs in collaboration with the Solution Architect, shaping strategic direction and technological frameworks.
+      - Coordinate with cross-functional teams in the US to ensure seamless delivery and client satisfaction, maintaining high standards in client interactions and project deliverables.
+      - Maintain product repositories, conduct code reviews, and provide mentorship to peer developers, fostering a collaborative and quality-focused development environment.
+      - Conduct comprehensive requirements and code analysis, identifying key metrics, assessing system risks, and ensuring software reliability.
+      - Employ Agile and SCRUM methodologies effectively to consistently deliver high-quality projects on schedule, enhancing team productivity and project outcomes.
       `,
       tagsList: {
         title: 'Technologies',
@@ -69,13 +70,9 @@ const experienceSectionData = {
       image: import('@/assets/logos/deakin-logo.png'),
       dates: [new Date('2019-05'), new Date('2021-11')],
       description: `
-      - Create user-friendly web and cross-platform applications using the following languages: JavaScript,
-      React JS, Flutter, React Native, Node JS.
-      - Lead a multidisciplinary team with backend and web developers to integrate a smooth functioning
-      system.
-      - Manage project repositories, doing code reviews and helping peer developers.
-      - Deploy of the applications on Web servers, Google Play Store and Apple App Store.
-      - Tactically use Agile and SCRUM methodologies to deliver high-quality projects on a timely basis
+      - Led a multidisciplinary team to develop and integrate user-friendly web and cross-platform applications, enhancing collaborative efforts and project efficiency.
+      - Employed Agile and SCRUM methodologies to ensure the timely delivery of high-quality projects, significantly improving team productivity and project outcomes.
+      - Managed deployment of applications on Web servers, Google Play Store, and Apple App Store, significantly increasing user accessibility and engagement.
       `,
       tagsList: {
         title: 'Technologies',

@@ -23,7 +23,7 @@ const mainSectionData = {
     { label: 'Website', value: 'sanchitdang.com', url: 'http://www.sanchitdang.com', fullRow: true },
   ],
   description:
-    'Full Stack Engineer with expertise in developing user-friendly and innovative web and mobile applications using various programming languages. Proficient in application performance tuning, usability, and automation.',
+    `Senior Software Engineer with expertise in developing scalable application solutions using cloud-based services and robust database management. At OneView Commerce, I am responsible for the Australia Development Team, focusing on the headless application solutions for Australia Post's Post+ POS, ensuring optimal integration and performance. My role involves coordinating with other developers and QAs under the guidance of the Client Lead, driving project deliverables and enhancing client interactions.`,
   tags: [{
     name: 'Solution Architect (Associate)', icon: 'fa6-brands:aws'
   }, {
