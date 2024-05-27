@@ -36,7 +36,7 @@ const screenshotsTooltip = screenshotsConfig?.title || 'Screenshots';
               <Timestamp dates={dates} />
             </div>
             <div class="flex gap-2">
-              {links.map((link) => <LinkButton {...link} />)}
+              {links.map((link:any) => <LinkButton {...link} />)}
               {
                 hasScreenshots && (
                   <LinkButton icon={screenshotsIcon} name={screenshotsTooltip} as="button" data-gallery={galleryId} />
@@ -46,7 +46,7 @@ const screenshotsTooltip = screenshotsConfig?.title || 'Screenshots';
           </div>
         </div>
         <div class="inline-grid w-full xl:grid-cols-[auto_auto]">
-          {details.map((detail) => <LabelledValue {...detail} />)}
+          {details.map((detail:any) => <LabelledValue {...detail} />)}
         </div>
       </div>
     </div>
@@ -54,7 +54,7 @@ const screenshotsTooltip = screenshotsConfig?.title || 'Screenshots';
   </div>
   <TagsList {...tagsList} />
   <div class="hidden" id={galleryId}>
-    {screenshots?.map((screenshot) => <Photo {...screenshot} />)}
+    {screenshots?.map((screenshot:any) => <Photo {...screenshot} />)}
   </div>
 </div>
 

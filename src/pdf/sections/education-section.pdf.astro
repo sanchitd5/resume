@@ -14,7 +14,7 @@ const { config, diplomas } = Astro.props;
   <SectionHeading>{config.title}</SectionHeading>
   <div class="flex flex-col">
     {
-      diplomas.map(({ title, description, institution, dates }) => () => (
+      diplomas.map(({ title, description, institution, dates }:any) => () => (
         <>
           <div class="flex flex-col gap-2">
             <ListItemHeading title={title} subtitle={institution} dates={dates} />

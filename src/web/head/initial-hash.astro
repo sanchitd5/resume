@@ -7,8 +7,8 @@ interface Props {
 
 const { sections } = Astro.props;
 
-const firstVisibleSection = Object.values(sections).find((section) => section.config.visible);
-const firstVisibleSectionSlug = firstVisibleSection?.config.slug;
+const firstVisibleSection = Object.values(sections).find((section:any) => section.config.visible) as any;
+const firstVisibleSectionSlug:any = firstVisibleSection?.config.slug;
 ---
 
 {/* Used in src/web/utils/hash-state.ts */}

@@ -10,5 +10,5 @@ const { config, diplomas } = Astro.props;
 ---
 
 <SectionCard {...config}>
-  {diplomas.flatMap((diploma) => [<Diploma {...diploma} />, <Divider />])}
+  {diplomas.flatMap((diploma:any) => [<Diploma {...diploma} />, <Divider />])}
 </SectionCard>

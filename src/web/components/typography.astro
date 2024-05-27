@@ -50,7 +50,7 @@ export interface Props extends Omit<astroHTML.JSX.HTMLAttributes, 'slot'>, LinkP
 }
 
 const { variant = 'paragraph', as, class: className, ...props } = Astro.props;
-const Element = as ?? variantToElement[variant];
+const Element = (as ?? variantToElement[variant]);
 ---
 
-<Element {...props} class:list={[variantToClassName[variant], className]}><slot /></Element>
+<Element {...props} class:list={([variantToClassName[variant as any] as any, className] as any)}><slot /></Element>

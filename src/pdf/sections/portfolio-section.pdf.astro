@@ -16,13 +16,13 @@ const { config, projects } = Astro.props;
   <SectionHeading>{config.title}</SectionHeading>
   <div class="flex flex-col">
     {
-      projects.map(({ name, description, details, pdfDetails, tagsList, dates }) => () => (
+      projects.map(({ name, description, details, pdfDetails, tagsList, dates }:any) => () => (
         <>
           <div class="flex flex-col gap-2">
             <ListItemHeading title={name} dates={dates} />
             <Description content={description} />
             <div class="flex flex-col gap-1">
-              {(pdfDetails ?? details).map((detail) => (
+              {(pdfDetails ?? details).map((detail:any) => (
                 <LabelledValue {...detail} />
               ))}
             </div>
