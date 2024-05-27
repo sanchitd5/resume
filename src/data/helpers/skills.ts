@@ -63,6 +63,20 @@ export const mongoDb = createSkillFactory({
   url: 'https://www.mongodb.com/',
 });
 
+export const firestore = createSkillFactory({
+  name: 'Firestore',
+  icon: 'simple-icons:firebase',
+  iconColor: '#FFCA28',
+  url: 'https://firebase.google.com/docs/firestore',
+});
+
+export const cloudant = createSkillFactory({
+  name: 'IBM Cloudant',
+  icon: 'simple-icons:ibmcloud',
+  iconColor: '#FFCA28',
+  url: 'https://www.ibm.com/products/cloudant',
+});
+
 export const pnpm = createSkillFactory({
   name: 'pnpm',
   icon: 'simple-icons:pnpm',
@@ -279,4 +293,6 @@ export default {
   awsS3,
   awsSqs,
   ble,
+  firestore,
+  cloudant
 }
