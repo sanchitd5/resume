@@ -23,7 +23,7 @@ const mainSectionData = {
     { label: 'Website', value: 'sanchitdang.com', url: 'http://www.sanchitdang.com', fullRow: true },
   ],
   description:
-    `Senior Software Engineer with expertise in developing scalable application solutions using cloud-based services and robust database management. At OneView Commerce, I am responsible for the Australia Development Team, focusing on the headless application solutions for Australia Post's Post+ POS, ensuring optimal integration and performance. My role involves coordinating with other developers and QAs under the guidance of the Client Lead, driving project deliverables and enhancing client interactions.`,
+    `Senior Software Engineer with expertise in developing scalable applications using cloud services and robust database management, I lead the Australia Development Team at OneView Commerce. My role involves overseeing release management, collaborating on architectural decisions for new features, managing development efforts and timelines, handling deployments, and troubleshooting production issues and enhancements. I coordinate with cross-functional teams to drive project deliverables and enhance client interactions and satisfaction.`,
   tags: [{
     name: 'Solution Architect (Associate)', icon: 'fa6-brands:aws'
   }, {

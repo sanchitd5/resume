@@ -35,17 +35,18 @@ const experienceSectionData = {
       image: import('@/assets/logos/australia-post-logo.jpeg'),
       dates: [new Date('2021-11'), null],
       description: `
-      - Improve OVC's proprietary calculation logic, achieving an 800% improvement in basket calculation times, significantly enhancing performance and efficiency.
-      - Lead the Australia Development Team at OneView Commerce, focusing on headless application solutions for Australia Post's Post+ POS, ensuring optimal integration and performance.
-      - Engineer OneView Commerce’s POS Software Development Kit and UI, utilized by clients such as Molten Brown, ForeverNew, and Kroger to deliver tailored retail solutions.
-      - Develop business logic for Australia Post's Post+ POS software, leveraging ReduxJS, AWS Serverless, and Google Cloud Functions to enhance functionality and integration.
-      - Implement an event-based logging solution using AWS SQS and SNS, streamlining data handling and improving system responsiveness.
-      - Translate mock-ups and wireframes into functional front-end code with ReactJS, ReduxJS, and AngularJS, ensuring high fidelity to design specifications.
-      - Contribute to technical architecture and designs in collaboration with the Solution Architect, shaping strategic direction and technological frameworks.
-      - Coordinate with cross-functional teams in the US to ensure seamless delivery and client satisfaction, maintaining high standards in client interactions and project deliverables.
-      - Maintain product repositories, conduct code reviews, and provide mentorship to peer developers, fostering a collaborative and quality-focused development environment.
-      - Conduct comprehensive requirements and code analysis, identifying key metrics, assessing system risks, and ensuring software reliability.
-      - Employ Agile and SCRUM methodologies effectively to consistently deliver high-quality projects on schedule, enhancing team productivity and project outcomes.
+      - Lead the Australia Development Team, managing release schedules, deployments, and development timelines to ensure timely delivery of project milestones.
+      - Oversee the development effort, coordinating tasks among team members to meet project deadlines.
+      - Collaborate on architectural decisions for new feature development, working closely with the Solution Architect to drive innovation.
+      - Manage and troubleshoot production defects and enhancements, improving system stability and user experience.
+      - Improved OVC's calculation logic, achieving an 800% increase in basket calculation times, significantly boosting performance.
+      - Directed the development of OneView Commerce’s POS Software Development Kit and UI, used by clients like Molten Brown, Forever New, and Kroger.
+      - Developed business logic for Australia Post's Post+ POS software using ReduxJS, AWS Serverless, and Google Cloud Functions.
+      - Implemented an event-based logging solution with AWS SQS and SNS to streamline data handling.
+      - Translated mock-ups and wireframes into functional front-end code with ReactJS, ReduxJS, and AngularJS.
+      - Coordinated with teams in the US to ensure seamless delivery and maintain high standards in client interactions.
+      - Maintained product repositories, conducted code reviews, and mentored peer developers, fostering a collaborative environment.
+      - Utilized Agile and SCRUM methodologies to deliver high-quality projects on schedule.
       `,
       tagsList: {
         title: 'Technologies',
