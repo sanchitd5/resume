@@ -14,7 +14,7 @@ const mainSectionData = {
   role: 'Senior Full Stack Engineer',
   details: [
     { label: 'Email', value: 'sanchitd5@live.com', url: 'mailto:sanchitd5@live.com' },
-    { label: 'From', value: 'Geelong, Australia' },
+    { label: 'From', value: 'Melbourne, Australia' },
   ],
   pdfDetails: [
     { label: 'Email', value: 'sanchitd5@live.com', url: 'mailto:sanchitd5@live.com' },
